@@ -1,6 +1,8 @@
 // Require modules in:
-
-
+// Require the dog class from dog.js
+let Dog = require('./dog.js');
+// Require the cat class 
+let Cat = require('./cat.js');
 
 let fight = (dog, cat) => {
     if (dog.toothStrength > cat.clawStrength) {
